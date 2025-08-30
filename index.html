@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PocketMate</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 0; line-height: 1.6; }
+    header { padding: 24px; border-bottom: 1px solid #eee; }
+    nav a { margin-right: 16px; text-decoration: none; }
+    main { max-width: 900px; margin: 0 auto; padding: 24px; }
+    .hero { padding: 32px 0; }
+    .cta { display: inline-block; padding: 10px 16px; border: 1px solid #333; border-radius: 6px; text-decoration: none; }
+    footer { border-top: 1px solid #eee; padding: 24px; text-align: centre; }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>PocketMate</strong>
+    <nav style="float:right">
+      <a href="/">Home</a>
+      <a href="/clinicians.html">For Clinicians</a>
+      <a href="/users.html">For Users</a>
+      <a href="/support.html">Support</a>
+      <a href="/feedback.html">Feedback</a>
+      <a class="cta" href="https://app.pocketmate.com.au" target="_blank" rel="noopener">Log in</a>
+    </nav>
+    <div style="clear:both"></div>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Welcome to PocketMate</h1>
+      <p>PocketMate is a mental health toolkit designed for users and clinicians. This site shares information, support, and updates.</p>
+      <p><a class="cta" href="https://app.pocketmate.com.au" target="_blank" rel="noopener">Log in to the app</a></p>
+    </section>
+    <section>
+      <h2>About</h2>
+      <p>Use this space to describe key features such as therapy techniques, reframing tools, and safety planning. Keep language clear and supportive.</p>
+    </section>
+  </main>
+  <footer>
+    <small>© <span id="y"></span> PocketMate · ABN 00 000 000 000</small>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
